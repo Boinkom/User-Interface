@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:background="#403b37">
+
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:background="#403b37">
+
+    <FrameLayout
+        android:id="@+id/fraimStatTrek"
+        android:layout_width="155dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="222dp"
+            android:src="@drawable/image2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="15dp"
+            android:text="Star Trek:Picard"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/action_drama_adventure"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fraimJoJo"
+        android:layout_width="167dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_width="153dp"
+            android:layout_height="215dp"
+            android:src="@drawable/imagejojo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="15dp"
+            android:text="JoJo"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="15dp"
+            android:text="Action, Drama, Adventure"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/fraimDead"
+        android:layout_width="155dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="-353dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="222dp"
+            android:src="@drawable/imagedead" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="15dp"
+            android:text="The Walking Dead"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="15dp"
+            android:text="Action, Drama, Adventure"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fraimboys"
+        android:layout_width="155dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="222dp"
+            android:src="@drawable/imageboys" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="15dp"
+            android:text="The Boys"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="15dp"
+            android:text="Action, Drama, Adventure"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fraimreal"
+        android:layout_width="155dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="-330dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="222dp"
+            android:src="@drawable/imagereal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="15dp"
+            android:text="real boys"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="15dp"
+            android:text="Action, Drama, Adventure"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fraimsuper"
+        android:layout_width="155dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="222dp"
+            android:src="@drawable/imagesuper" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="15dp"
+            android:text="Supernatural"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="15dp"
+            android:text="Action, Drama, Adventure"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fraimdrive"
+        android:layout_width="155dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="-330dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="750dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="222dp"
+            android:src="@drawable/imagedrive" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="15dp"
+            android:text="Drive"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="15dp"
+            android:text="Action, Drama, Adventure"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+</LinearLayout>
+
+</ScrollView>

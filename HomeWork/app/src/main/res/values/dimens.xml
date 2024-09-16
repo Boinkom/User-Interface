@@ -1,0 +1,5 @@
+<!-- res/values/dimens.xml -->
+<resources>
+    <dimen name="frame_width">155dp</dimen>
+    <dimen name="frame_height">223dp</dimen>
+</resources>
